@@ -1,0 +1,72 @@
+============================================================================================
+Title			: AEODM1
+Author			: A Ordish
+E-mail			: Aeordish@dial.pipex.com
+			: Aeordish@yahoo.co.uk
+Description		: The map is a small to medium sized storage complex ideal for 2-8 players
+			  (12 respawn points) featuring large and small areas.  It's easily remembered and not one
+			  of these large dull, boring maps like many included with the game.
+			  Ideal for mad crazed fragging and the like.
+
+			  The map offers a wide range of player techniques from running around, to camping as well
+			  as being a good map to setup explosives.
+
+			  As well as making the map look intresting , much attention has been put towards how the map
+			  sounds like when played.  Therefore, in vital parts of the map they may be different floor
+			  surfaces giving the diferent sounding footsteps.  This becomes very useful in duel play
+			  when much of the sounds give a clue to where the opponent is.
+
+			  As for weapons layout, many of them have been put in strategic locations. For example, the
+			  rocket launcher has been placed in a vunerable position to deter weapon camping.  The
+			  guass gun too, requires one of two methods in order to retrieve it.  As for other equipment, 
+			  theres one or two surprising locations.
+
+			  All weapons included except hornet gun and egon gun which would not suit the map
+			  and their both boring anyway.
+
+Other maps by me	: Nope, this is my first map.
+
+============================================================================================
+
+*Play Information*
+
+Playtested on		: AMDK6-2 300, 64 meg and a Monster 12 meg Voodoo 2
+			  and AMDK6 200, 64 meg and a 4 meg voodoo1 over a LAN.
+			  Both easily zipped along at a healthy rate.
+
+Single Player		: Erm...nope.  Unless you want to take in the breath taking architecture
+			  with out having the pleasure of spreading someone's guts across it.
+
+Multiplayer		: Oh yes indeedy.
+
+Team Play		: Yes i suppose.
+
+*Construction*
+
+Base			: From Scratch
+Editor used		: Worldcraft 2.0
+Bugs			: Hell no.
+
+Build Time		: A phrase that ryhmes with 'plucking pages' springs to mind.  Mainly because
+			  until i started this groovy map I had no knowledge of how to use worldcraft,
+			  at all.  So i went back and re-did many of the rooms as I learnt new things.
+
+Compiled on		: AMDK6-2 300, 64 meg and a Monster 12 meg Voodoo 2
+
+* Copyright / Permissions *
+
+			: Authors MAY NOT use this level as a base to build additional levels. 
+
+			: If a magazine wants to put this map on its CD, then go ahead, slap it on.  Just inform me please.
+			  Please include this file with the map, and do not re-name this file or the map bsp file.  Thankyou.
+			 (Already featued in PC GAMER UK - PCG74-October99)
+
+			: General BBS use - Sure, I don't have a problem with that.
+
+			: Please e-mail me if you like this level.
+
+
+Final comments		: Woohoo.
+
+(c)  Copyright Andrew Ordish 1999.
+============================================================================================

@@ -1,0 +1,34 @@
+[C:\Entering Inter-Planetary Communications v.1.03
+ Loading ...
+ Load Successful ]
+
+I have to do the whole Space Travel thing quite regularly and, as you know, the novelty soon wore off. However, I've never been on a trip outside of our Solar System before and to tell the truth I'm quite excited about this trip !
+
+We're staying in one of the best Hotels Colony3c has to offer. It's in the very heart of the Uptown District which means we have access to Colony3c's finest and famous entertainment.
+
+Once this whole deal with Kami-Tech is over, i'm looking forward to some top quality relaxation.
+
+The view from my window is absolutely stunning:
+A vast City with large mountains as its backdrop. Colony3c is almost constantly in a twighlight state during the day and then when night falls all the stars come out. The sheer volume of stars is very impressive and they all glow very clearly due to the effective Air Pollution control.
+
+I hear some Asteroids will be passing the planet soon and they will just skim the Atmosphere, creating an amazing light show. Hopefully we'll be here long enough to see it.
+
+Anyway, I had better sign off for now. I need to get some good sleep in before the meeting tomorrow. I wish you and the kids could have come with me, but I know how you feel about Space Travel. You don't know what you're missing though ! I'll bring back some good photos.
+
+See you in a week...
+
+[Command Send id:7683|7300 ...
+ Send Successful
+ Closing ]
+
+
+
+--------------------------------------------------------------------------------
+
+Ported to Sven Co-op by Adam "Adambean" Reece.
+Thanks to Captain Scarlet, Gauna, SV BOY, Stimor, Jangaard, and AleKK for testing the port.
+
+Originally a custom map for Team Fortress Classic.
+
+Version 1.1 [2021-12-29]
+Get the latest version at http://scmapdb.com/map:planet-3c
