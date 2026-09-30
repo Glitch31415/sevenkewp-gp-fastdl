@@ -1,0 +1,36 @@
+SKILLRUN 3 FINAL RELEASE
+_________________________________
+by rSnake Jan 2019
+
+
+CHANGELOG
+V5.0
+-Tiny bit adjusted dropdown jump from wildwest to volcano.
+-J1 turned the wooden parts of cart nonsolid.
+-Small final cosmetic fixes.
+V4.0
+-Adjusted wooden swinging beams jump and reworked the 3x elevator
+-Ceiling has been slightly improved in crystal cave
+-Healing kit is now available before the drop to enchanted dungeon
+-Minigames mechanics fused into floor brush
+V3.0
+-Removed the accidental noclip function from 2x button at purple log.
+V2.0
+-Adjusted few jumps, including Level#1 J1, J3 and Volcano J1 and J2.
+-Added wooden pieces to cart ride jump to make it clear there is a tp.
+-Flower at Spring section now reachable by 2 players.
+-Tree that blocked you at bhops is now nonsolid.
+-Merged 2 buttons at purple log into one setup.
+-Proper colors for quadgodgrav and ability to disable grav.
+-Little countermeasure against accidental teleporting in endroom.
+-2 platforms at the begining of enchanted dungeon now work as intended.
+-Removed last flower, theres 8 now.
+-Removed old and added brand new hat set.
+-Added minigame. Yeeeyyy.
+-Countles cosmetic fixes.
+
+____________________________
+
+Map ported to Sven Co-op by Meryilla.
+
+Originally made for TFC.

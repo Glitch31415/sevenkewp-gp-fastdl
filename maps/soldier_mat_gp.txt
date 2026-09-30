@@ -1,0 +1,24 @@
+D snow2
+M metal1
+M metal2
+M metal3
+M metal4
+M {cugzbob
+M {cxgate
+M {target
+D snow4
+T carpet1
+T carpet2
+T tile3
+T concretej
+T wood4
+T wood5
+T wood6
+T wood7
+W wood1
+W wood2
+W wood3
+Y glas
+
+
+
