@@ -5,3 +5,11 @@ sound/glitch31415/meow2.wav
 sound/glitch31415/meow3.wav
 sound/glitch31415/mraow.wav
 sound/glitch31415/fnaf3goodending.mp3
+sound/glitch31415/applause.wav
+sound/glitch31415/lg.wav
+models/ayakashi_banquet_gp/cat.mdl
+sound/ayakashi_banquet_gp/cat.txt
+sound/ayakashi_banquet_gp/cat2.wav
+sound/ayakashi_banquet_gp/cat3.wav
+models/glitch31415/glitchpm_v20.mdl
+sound/glitch31415/glitchpm_v20.txt
