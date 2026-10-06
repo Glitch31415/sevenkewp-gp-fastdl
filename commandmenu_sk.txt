@@ -1,0 +1,249 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command>"
+//
+// Submenu format:
+//		"<Bound Key>" "<Menu Text>"
+//		{
+//			<more buttons or submenus>
+//		}
+//
+// Buttons preceded with "CUSTOM" are handled in special ways.
+// They can only be moved around or deleted.
+//
+// Lines beginning with "//" are ignored
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+
+"1" "Commands"
+{
+	"1" "Drop Current Weapon" "drop"
+	"2" "Drop Primary Ammo" "dropammo"
+	"3" "Drop Secondary Ammo" "dropammo2"
+	"4" "Suicide" "kill"
+	"5" "Spectate" "spectate"
+}
+"2" "Camera"
+{
+	"1" "Toggle Thirdperson" "+thirdperson;-thirdperson"
+	"2" "Restore Defaults" "cam_snapback 1;cam_idealdist 90;cam_idealyaw 0"
+	"3" "Auto Reset"
+	{
+		"1" "ON" "cam_snapback 1"
+		"2" "OFF" "cam_snapback 0"
+	}
+	"4" "Distance"
+	{
+		"1" "0" "cam_idealdist 0"
+		"2" "45" "cam_idealdist 45"
+		"3" "64" "cam_idealdist 64"
+		"4" "90" "cam_idealdist 90"
+		"5" "128" "cam_idealdist 128"
+		"6" "256" "cam_idealdist 256"
+		"7" "512" "cam_idealdist 512"
+		"8" "1024" "cam_idealdist 1024"
+	}
+	"5" "Rotation"
+	{
+		"1" "0" "cam_idealyaw 0"
+		"2" "15" "cam_idealyaw 20"
+		"3" "45" "cam_idealyaw 45"
+		"4" "90" "cam_idealyaw 90"
+		"5" "135" "cam_idealyaw 135"
+		"6" "180" "cam_idealyaw 180"
+		"7" "225" "cam_idealyaw 225"
+		"8" "270" "cam_idealyaw 270"
+		"9" "315" "cam_idealyaw 315"
+	}
+}
+"3" "UI Settings"
+{
+	"1" "HUD Scale"
+	{
+		"0" "Automatic" "hud_scale 0;retry"
+		"1" "0.5x (240p)" "hud_scale 1;retry"
+		"2" "1x (480p)" "hud_scale 2;retry"
+		"3" "2x (1080p)" "hud_scale 3;retry"
+		"4" "3x (2160p)" "hud_scale 4;retry"
+	}
+	"2" "HUD Color"
+	{
+		"0" "Automatic" "hud_color 0"
+		"1" "White" "hud_color FFF"
+		"2" "Red" "hud_color F00"
+		"3" "Pink" "hud_color F0F"
+		"4" "Purple" "hud_color 80F"
+		"5" "Cyan" "hud_color 0FF"
+		"6" "Half-Life (Orange)" "hud_color FA0"
+		"7" "Opposing Force (Green)" "hud_color 0A0"
+		"8" "Sven Co-op (Blue)" "hud_color 8AF"
+	}
+	"3" "Name Tags"
+	{
+		"1" "Restore Defaults" "cl_nametags 1;cl_nametags_hp 1;cl_nametags_info 0;"
+		"2" "Mode"
+		{
+			"1" "ON" "cl_nametags 1"
+			"2" "OFF" "cl_nametags 0"
+			"3" "ON + X-Ray" "cl_nametags 2"
+		}
+		"3" "Health Display"
+		{
+			"1" "ON" "cl_nametags_hp 1"
+			"2" "OFF" "cl_nametags_hp 0"
+			"3" "Hide names" "cl_nametags_hp 2"
+		}
+		"4" "Merge Status Text"
+		{
+			"1" "ON" "cl_nametags_info 1"
+			"2" "OFF" "cl_nametags_info 0"
+		}
+	}
+	"4" "Status Text"
+	{
+		"1" "Bottom Left" "hud_centerid 0"
+		"2" "Center (+10)" "hud_centerid 10"
+		"3" "Center (+5)" "hud_centerid 5"
+		"4" "Center (-5)" "hud_centerid -5"
+		"5" "Center (-10)" "hud_centerid -10"
+	}
+	"5" "Chat History"
+	{
+		"1" "5 Lines" "hud_saytext_lines 5"
+		"2" "10 Lines" "hud_saytext_lines 10"
+		"3" "15 Lines" "hud_saytext_lines 15"
+		"4" "20 Lines" "hud_saytext_lines 20"
+	}
+	"6" "VGUI Mouse Capture"
+	{
+		"1" "ON" "hud_capturemouse 1"
+		"2" "OFF" "hud_capturemouse 0"
+	}
+	"7" "Network Graph"
+	{
+		"1" "ON" "net_graph 2"
+		"2" "OFF" "net_graph 0"
+	}
+	"8" "Monospace Console Font"
+	{
+		"1" "ON" "con_mono 1"
+		"2" "OFF" "con_mono 0"
+	}
+}
+"4" "Crosshair Settings"
+{
+	"1" "Restore Defaults" "hud_crosshair_length -1;hud_crosshair_width -1;hud_crosshair_border 1;hud_crosshair_dot 1;hud_crosshair_tee 0;hud_crosshair_color 0;hud_crosshair_mode 1"
+	"2" "Mode"
+	{
+		"1" "Classic" "hud_crosshair_mode 0"
+		"2" "Dynamic" "hud_crosshair_mode 1"
+		"3" "Dynamic + Always on" "hud_crosshair_mode 2"
+	}
+	"3" "Length"
+	{
+		"0" "Automatic" "hud_crosshair_length -1"
+		"1" "2 Pixels" "hud_crosshair_length 2"
+		"2" "4 Pixels" "hud_crosshair_length 4"
+		"3" "8 Pixels" "hud_crosshair_length 8"
+		"4" "12 Pixels" "hud_crosshair_length 12"
+		"5" "16 Pixels" "hud_crosshair_length 16"
+		"6" "20 Pixels" "hud_crosshair_length 20"
+		"7" "40 Pixels" "hud_crosshair_length 40"
+		"8" "100 Pixels" "hud_crosshair_length 100"
+		"9" "800 Pixels" "hud_crosshair_length 100"
+	}
+	"4" "Thickness"
+	{
+		"0" "Automatic" "hud_crosshair_width -1"
+		"1" "1 Pixel" "hud_crosshair_width 1"
+		"2" "2 Pixels" "hud_crosshair_width 2"
+		"3" "3 Pixels" "hud_crosshair_width 3"
+		"4" "4 Pixels" "hud_crosshair_width 4"
+		"5" "5 Pixels" "hud_crosshair_width 5"
+		"6" "6 Pixels" "hud_crosshair_width 6"
+		"7" "8 Pixels" "hud_crosshair_width 8"
+		"8" "10 Pixels" "hud_crosshair_width 10"
+		"9" "100 Pixels" "hud_crosshair_width 100"
+	}
+	"5" "Border"
+	{
+		"0" "Disable" "hud_crosshair_border 0"
+		"1" "1 Pixel" "hud_crosshair_border 1"
+		"2" "2 Pixels" "hud_crosshair_border 2"
+		"3" "3 Pixels" "hud_crosshair_border 3"
+		"4" "4 Pixels" "hud_crosshair_border 4"
+		"5" "5 Pixels" "hud_crosshair_border 5"
+		"6" "6 Pixels" "hud_crosshair_border 6"
+		"7" "8 Pixels" "hud_crosshair_border 8"
+		"8" "10 Pixels" "hud_crosshair_border 10"
+		"9" "20 Pixels" "hud_crosshair_border 20"
+	}
+	"6" "Color"
+	{
+		"0" "Automatic" "hud_crosshair_color 0"
+		"1" "White" "hud_crosshair_color FFF"
+		"2" "Black" "hud_crosshair_color 111"
+		"3" "Red" "hud_crosshair_color F00"
+		"4" "Green" "hud_crosshair_color 0F0"
+		"5" "Blue" "hud_crosshair_color 00F"
+		"6" "Pink" "hud_crosshair_color F0F"
+		"7" "Purple" "hud_crosshair_color 80F"
+		"8" "Yellow" "hud_crosshair_color FF0"
+		"9" "Cyan" "hud_crosshair_color 0FF"
+	}
+	"7" "Center Dot"
+	{
+		"1" "Enable" "hud_crosshair_dot 1"
+		"2" "Disable" "hud_crosshair_dot 0"
+	}
+	"8" "Tee Shape"
+	{
+		"1" "Enable" "hud_crosshair_tee 1"
+		"2" "Disable" "hud_crosshair_tee 0"
+	}
+}
+"5" "Misc"
+{
+	"1" "Allow map player models"
+	{
+		"0" "Yes" "cl_map_pmdls 1"
+		"1" "No" "cl_map_pmdls 0"
+	}
+	"2" "Debug mode"
+	{
+		"0" "Enable" "cl_debug 1"
+		"1" "Disable" "cl_debug 0"
+	}
+	"3" "r_speeds HUD"
+	{
+		"0" "Enable" "cl_rspeeds 1"
+		"1" "Disable" "cl_rspeeds 0"
+	}
+}
+"6" "Weapon Loadout"
+{
+	"1" "SevenKewp" "cl_class 0"
+	"2" "Half-Life Deathmatch" "cl_class 1"
+}
+"7" "Help"
+{
+	"1" "Server Info" "svmotd"
+	"2" "Map Briefing" "brief"
+}
+
+
+" " "Reconnect"	"retry"
+" " "Quit Game + Reconnect"
+{
+	"1" "Are you sure?"
+	{
+		"1" "No"	""
+		CUSTOM  	"2" "Yes"	"!REBOOT"
+	}
+	
+}
+CUSTOM  	" " "Update Client"	"!UPDATECLIENT"

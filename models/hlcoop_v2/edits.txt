@@ -1,0 +1,57 @@
+voltigore.mdl:
+- moved orb attachement point
+- added .wav suffix to death sound events
+- use hlcoop sound subfolder
+
+submodels merged with modelguy
+
+gonome.mdl:
+- use hlcoop sound subfolder
+
+w_shock_roach.mdl:
+- use hlcoop sound subfolder
+
+pit_drone.mdl:
+- use hlcoop sound subfolder
+
+babygarg.mdl
+- removed idle model sound
+
+v_bgrap.mdl
+- use hlcoop sound folder
+
+v_rpg.mdl
+- add laser attachment
+
+w_knife.mdl
+- rotate to lie flat on floor
+
+v_knife.mdl
+- hev arm edit by Cybermax (https://gamebanana.com/mods/241584)
+
+osprey.mdl
+- fixup normals on landing gear body panels ("set from faces" in Blender)
+
+v_m4a1.mdl
+- removed sound events
+
+v_saw.mdl:
+- removed sound events
+
+v_minigun.mdl:
+- removed sound events
+
+v_uzi.mdl
+- animations reordered
+- left uzi removed (mirrored rendering used instead)
+- edited animations so that left hand is out of view:
+    akimbo_deploy, akimbo_idle, akimbo_pull, akimbo_reload_right, akimbo_fire_right
+- new animations: 
+  - akimbo_holster
+    - right hand is first few frames of akimbo_reload_left
+    - left hand lowered out of view
+  - akimbo_deploy2
+    - right hand is last few frames of akimbo_reload_left
+    - left hand lowered out of view
+- removed animations:
+    --LiquidGamerX--, akimbo_reload_left, akimbo_fire_left, akimbo_fire_both

@@ -1,0 +1,8 @@
+[general]
+classname    = ammo_sporeclip
+model        = models/spore.mdl
+hull_min     = -16.00 -16.00 -2.00
+hull_max     = 16.00 16.00 16.00
+pickup_sound = weapons/spore_ammo.wav
+ammo_type    = spores
+ammo_given   = 1
