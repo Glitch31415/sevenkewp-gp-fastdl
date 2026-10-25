@@ -1,0 +1,118 @@
+hlrad v3.4 VL34 (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: hlrad.exe -estimate -nobleedfix -bounce 3 -extra quad_rocket_gp.bsp 
+Arguments: -estimate -nobleedfix -bounce 3 -extra quad_rocket_gp.bsp 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                20 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [                on ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [            Normal ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 3 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [             0.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [               off ] [                on ]
+
+
+Load Textures:
+Using Wadfile: quad_rocket_gp.wa_
+30 textures referenced
+Reading texlights from 'lights.rad'
+Reading texlights from info_texlights map entity
+0 opaque models
+0 opaque faces
+8894 faces
+Create Patches : 43413 base patches
+1737498 square feet [250199808.00 square inches]
+378 direct lights and 16386 fast direct lights
+1 light styles
+
+FindFacePositions:
+ (1.64 seconds)
+BuildFacelights:
+ (7.35 seconds)
+BuildVisLeafs:
+ (0.79 seconds)
+visibility matrix   :  10.1 megs
+MakeScales:
+ (3.60 seconds)
+Transfer Lists :    27561761 :    27.56M transfers
+       Indices :     7778584 :     7.42M bytes
+          Data :    55230709 :    52.67M bytes
+Bounce 1 GatherLight:
+ (1.31 seconds)
+Bounce 2 GatherLight:
+ (1.23 seconds)
+Bounce 3 GatherLight:
+ (1.27 seconds)
+CreateTriangulations:
+ (0.28 seconds)
+AddPatchLights:
+ (1.46 seconds)
+FinalLightFace:
+ (0.27 seconds)
+19.68 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
